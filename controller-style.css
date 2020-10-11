@@ -1,0 +1,56 @@
+.layer-controler {
+    width: 35px;
+    top: 10px;
+    right: 50px;
+    font-size: 13px;
+    padding: 7px 10px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.6);
+    border: 1px solid rgb(133, 133, 133);
+    transition: width 0.2s, height 0.2s;
+}
+
+.layer-controler.layer-controler-open {
+    width: 250px;
+}
+
+.layer-controler:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.layer-controler.layer-controler-open div:first-of-type {
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.layer-controler-close-button {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.layer-controler-close-button:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.layer-controler-layer {
+    margin: 3px;
+    font-weight: normal;
+}
+
+.layer-controler p:first-of-type {
+    margin-top: 11px;
+}
+
+.layer-controler-layer-checkbox {
+    margin-right: 7px;
+    transform: scale(1.2);
+}
+
+#map {
+    max-height: 97vh;
+}
+
